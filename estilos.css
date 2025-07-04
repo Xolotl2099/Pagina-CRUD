@@ -68,6 +68,20 @@ header nav .registro{
     flex-direction: row-reverse;
 }
 
+.Bienvenida{
+    font-size: 80px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding-top: 130px;
+    width: 1870px;
+    height: 100px;
+    text-align: center;
+    justify-content:center;
+
+}
+
 
 .registro {
     width: 300px;
@@ -100,18 +114,32 @@ header nav .registro{
 }
 
 .Registro{
-    height: 1100px;
+    height: 1100gitpx;
     width: 1500px;
     margin: auto;
-    padding: 150px 0; 
+    padding: 0px 0; 
     padding-bottom: 0;   
+}
+
+.Titulo{
+    font-size: 60px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 1500px;
+    height: 80px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content:center;
+
 }
 
 .Fondo{
     background-image: url(./Fondo.jpg);
     border-radius: 50px;
     background-size: cover;
-    height: 1000px;
+    height: 600px;
     width: 1500px;
   
     
@@ -194,4 +222,26 @@ footer {
 
 .fab {
     font-size: 20px;
+}
+
+.tabla{
+    width: 1700px;
+    padding-left: 200px;
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
+.identificador{
+    text-align: start;
+    padding-right: 180px;
+}
+
+.boton1 {
+    width: 60px;
+    height: 30px;
+    border-radius: 0px;
+    background-color: #4E4E4E;
+     color: #FFFFFF;
+    font-size: 10px;
+
 }

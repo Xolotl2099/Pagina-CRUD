@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de Registro</title>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="./estilos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
@@ -31,27 +31,31 @@
              </ul>     
         </nav>
 
-    </header>        
-
+    </header> 
+    
+    <div class="Bienvenida">¡Cuentanos más de ti!</div>
 >
     <div class="Registro">
         <div class="Formulario">
              <div class="Fondo">
+                <li class="Titulo">Formulario</li>
                 <p class="nombre1">Nombre</p>
                 <input type="text" name="Nombre" id="nombre">
                 <p class="nombre">Correo</p>
                 <input type="text" name="Correo" id="correo">
-                <p class="nombre">Telefono</p>
+                <p class="nombre">Teléfono</p>
                 <input type="text" name="Telefono" id="telefono">          
-                <p class="nombre">Estado</p>
+                <p class="nombre">Nivel de Experiencia</p>
                 <input type="text" name="Estado" id="estado">
             
-                <button class="Boton">Enviar</button>
+                <button onclick="guardar()" class="Boton">Enviar</button>
 
             </div>
         </div>    
         
     </div>
+
+    <p id="mostrar"></p>
             
      <footer>
         <div class="footer-content">
