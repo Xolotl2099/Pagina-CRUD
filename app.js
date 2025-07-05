@@ -3,14 +3,14 @@ console.log("Hola mundo")
 let array = JSON.parse(localStorage.getItem("Datos")) ? JSON.parse(localStorage.getItem("Datos")) : []; 
 
 function guardar(){
-    let obterDatos = {
+    let obtenerDatos = {
         "nombre": document.getElementById("nombre").value,
         "correo": document.getElementById("correo").value,
         "telefono": document.getElementById("telefono").value,
         "estado": document.getElementById("estado").value
     }
 
-    array.push(obterDatos)
+    array.push(obtenerDatos)
 
     localStorage.setItem("Datos", JSON.stringify(array))
 
@@ -40,8 +40,8 @@ function render(){
                      <td class="datos">${elemento.correo}</td>
                       <td class="datos">${elemento.telefono}</td>
                        <td class="datos">${elemento.estado}</td>
-                        <td ><button class="boton1" onclick="editar(${index})"> Modificar</button></td>
-                         <td><button class="boton1">Borrar</button></td>
+                        <td ><button class="boton1" onclick="editar(${index})">Modificar</button></td>
+                         <td><button class="boton1" onclick="borrar(${index})">Borrar</button></td>
                 </tbody>
             </table>
         </div>
@@ -64,19 +64,22 @@ function editar(index){
     <td><button onclick="reguardar(${i})">Modificar</button><td>
     <td><button>Salir</button><td>
     `
+    
 }
 
 function reguardar(i){
 
-     let obterDatos = {
+     let obtenerDatos = {
         "nombre": document.getElementById("nombre").value,
         "correo": document.getElementById("correo").value,
         "telefono": document.getElementById("telefono").value,
         "estado": document.getElementById("estado").value
     }
-    console.log("Borrado",array.splice(i, 1))
-    array[i] = obterDatos
+    console.log("Datos",array.splice(i, 1))
+    array[i] = obtenerDatos
     console.log(array[i])
+
+    
     
     localStorage.setItem("Datos", JSON.stringify(array))
 
@@ -87,4 +90,10 @@ function reguardar(i){
 
     render()
 
+}
+
+function borrar(position){
+    array.splice(position, 1)
+    localStorage.setItem("Datos", JSON.stringify(array))
+    render()
 }

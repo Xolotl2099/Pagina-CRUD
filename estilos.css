@@ -245,3 +245,137 @@ footer {
     font-size: 10px;
 
 }
+
+@media screen and (max-width: 900px){
+    nav{
+    width: 840px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: row;
+   
+    }
+
+    ul.registro{
+        padding-left: 55px;
+    }
+
+    header nav .registro{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    }
+
+    a.e3{
+        font-size: 30px;
+    }
+
+    ul.enlaces{
+        padding-left: 25px;
+         justify-content:flex-start;
+        
+    }
+
+    .enlaces img{
+        width: 140px;
+        height: 140px;
+        
+    }
+
+    .Bienvenida{
+    font-size: 60px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding-top: 130px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    justify-content:center;
+
+    }
+
+    .Fondo{
+    background-image: url(./Fondo.jpg);
+    border-radius: 50px;
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+  
+    
+    }
+
+    .Titulo{
+    font-size: 50px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 800px;
+    height: 80px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content:center;
+
+    }
+
+    .nombre{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 80px; 
+    
+
+    }
+
+    .nombre1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0px 80px; 
+    margin-top: 50px;
+    
+
+    }
+
+    input{
+    width: 630px;
+    height: 25px;
+    margin: 10px 80px;
+   
+
+    }
+
+    .Boton {
+    margin-left: 80px;
+    
+    }
+
+    .tabla{
+    width: 700px;
+    padding-left: 10px;
+    color:#FFFFFF;
+    font-size: 15px;
+    }
+
+    .identificador{
+     width: 100px;   
+    text-align: start;
+    padding-right: 100px;
+    }
+
+    .boton1 {
+    width: 60px;
+    height: 30px;
+    border-radius: 0px;
+    background-color: #4E4E4E;
+     color: #FFFFFF;
+    font-size: 10px;
+
+    }
+
+    .datos{
+        font-size: 10px;
+    }
+    
+}
