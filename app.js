@@ -29,19 +29,20 @@ function render(){
         verDatos.innerHTML += `
              <div>
             <table class="tabla">
-                <thead>
+                <thead class="head">
                     <th class="identificador">Nombre</th>
                     <th class="identificador">Correo</th>
                     <th class="identificador">Telefono</th>
                     <th class="identificador">Nivel de Experiencia</th>
                 </thead>
-                <tbody>
+                <tbody class="tbody">
                     <td class="datos">${elemento.nombre}</td>
                      <td class="datos">${elemento.correo}</td>
                       <td class="datos">${elemento.telefono}</td>
                        <td class="datos">${elemento.estado}</td>
-                        <td ><button class="boton1" onclick="editar(${index})">Modificar</button></td>
-                         <td><button class="boton1" onclick="borrar(${index})">Borrar</button></td>
+                        <td class="td1" ><button class="boton1" onclick="editar(${index})">Modificar</button></td>
+                         <td class="td1"><button class="boton1" onclick="borrar(${index})">Borrar</button></td>
+                         <tr class="tr"></tr>
                 </tbody>
             </table>
         </div>

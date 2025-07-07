@@ -14,7 +14,7 @@
             <img class="imagen" src="img2.png";>
         </div> -->
 
-        <nav>
+        <nav class="Nav">
              <ul class="enlaces">
                 <li>
                     <a>
@@ -23,7 +23,7 @@
                 </li>
             </ul> 
         </nav>   
-        <nav>    
+        <nav class="Nav">    
              <ul class="registro">
                 <li>
                     <a class="e3">Registro de Usuarios</a>
@@ -33,19 +33,21 @@
 
     </header> 
     
-    <div class="Bienvenida">¡Cuentanos más de ti!</div>
+    <div class="Bienvenida">
+        <h2 class="Bienvenida2">¡Cuentanos más de ti! </h2>
+    </div>
 >
     <div class="Registro">
         <div class="Formulario">
-             <div class="Fondo">
-                <li class="Titulo">Formulario</li>
-                <p class="nombre1">Nombre</p>
+             <div class="Fondo" style="background-image: url(./Fondo.jpg)">
+                <div class="Titulo">Formulario</div>
+                    <p class="nombre1">Nombre</p>
                 <input type="text" name="Nombre" id="nombre" required>
-                <p class="nombre">Correo</p>
+                    <p class="nombre">Correo</p>
                 <input type="text" name="Correo" id="correo" required>
-                <p class="nombre">Teléfono</p>
+                    <p class="nombre">Teléfono</p>
                 <input type="text" name="Telefono" id="telefono" required>          
-                <p class="nombre">Nivel de Experiencia</p>
+                    <p class="nombre">Nivel de Experiencia</p>
                 <input type="text" name="Estado" id="estado" required>
             
                 <button onclick="guardar()" class="Boton">Enviar</button>

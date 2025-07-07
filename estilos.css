@@ -18,7 +18,7 @@ header {
     gap: 10px;
 }
 
-nav{
+.Nav{
     width: 940px;
     height: 160px;
 
@@ -62,9 +62,9 @@ nav{
 }
 
 header nav .registro{
-    width: 100%;
+    width: 80%;
+    padding-left: 0px;
     display: flex;
-    justify-content: flex-start;
     flex-direction: row-reverse;
 }
 
@@ -75,16 +75,31 @@ header nav .registro{
     flex-direction:row;
     align-items: center;
     padding-top: 130px;
-    width: 1870px;
-    height: 100px;
+    width: auto;
+    height: auto;
     text-align: center;
     justify-content:center;
 
 }
 
+.Bienvenida2{
+    font-size: 80px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 1870px;
+    height: 100px;
+    text-align: center;
+    justify-content:center;
+    margin: 0;
+
+}
+
+
 
 .registro {
-    width: 300px;
+    width: auto;
     height: auto;
     display: flex;
     list-style: none;
@@ -107,15 +122,15 @@ header nav .registro{
     display: flex;
     flex-direction:row;
     align-items: center;
-    width: 930px;
-    height: 40px;
+    width: auto;
+    height: 60px;
     text-align: center;
     justify-content:center;
 }
 
 .Registro{
-    height: 1100gitpx;
-    width: 1500px;
+    height: auto;
+    width: auto;
     margin: auto;
     padding: 0px 0; 
     padding-bottom: 0;   
@@ -127,8 +142,8 @@ header nav .registro{
     display: flex;
     flex-direction:row;
     align-items: center;
-    width: 1500px;
-    height: 80px;
+    width: auto;
+    height: auto;
     padding-top: 40px;
     text-align: center;
     justify-content:center;
@@ -136,11 +151,15 @@ header nav .registro{
 }
 
 .Fondo{
-    background-image: url(./Fondo.jpg);
+    display: grid;
     border-radius: 50px;
     background-size: cover;
     height: 600px;
-    width: 1500px;
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
   
     
 }
@@ -149,12 +168,12 @@ header nav .registro{
     margin: 0px;
     padding: 40px 0;
     display: grid;
-    gap: px;
+
 }
 
 input{
-    width: 800px;
-    height: 25px;
+    width: auto;
+    height: auto;
     margin: 10px 300px;
     border-radius: 50px;
     background-color: #4E4E4E;
@@ -224,16 +243,23 @@ footer {
     font-size: 20px;
 }
 
+
 .tabla{
-    width: 1700px;
-    padding-left: 200px;
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    background-position: center center;
+    width: auto;
+    padding-left: 310px;
+    padding-right: 800px;
+    padding-top: 0px;
     color:#FFFFFF;
     font-size: 20px;
 }
 
 .identificador{
+    display: flex;
     text-align: start;
-    padding-right: 180px;
+    padding-right: 30px;
 }
 
 .boton1 {
@@ -241,27 +267,28 @@ footer {
     height: 30px;
     border-radius: 0px;
     background-color: #4E4E4E;
-     color: #FFFFFF;
+    color: #FFFFFF;
     font-size: 10px;
+
+    
+
+}
+
+.datos {
+    display: flex;
+
+}
+
+.td1 {
+    padding-top: 90px;
+    padding-left: 20px;
 
 }
 
 @media screen and (max-width: 900px){
-    nav{
-    width: 840px;
-    height: 120px;
-
-    display: flex;
-    flex-direction: row;
-   
-    }
-
-    ul.registro{
-        padding-left: 55px;
-    }
-
+  
     header nav .registro{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
@@ -283,24 +310,34 @@ footer {
         
     }
 
-    .Bienvenida{
+   .Bienvenida{
     font-size: 60px;
     padding-top: 130px;
-    width: 800px;
-    height: 100px;
+    width: auto;
+    height: auto;
     text-align: center;
     justify-content:center;
 
     }
 
+    .Bienvenida2{
+    font-size: 60px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    justify-content:center
+    }
+
     .Fondo{
-    background-image: url(./Fondo.jpg);
+    display: grid;
     border-radius: 50px;
     background-size: cover;
     height: 600px;
-    width: 800px;
-  
-    
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
     }
 
     .Titulo{
@@ -350,9 +387,9 @@ footer {
     }
 
     .identificador{
-     width: 100px;   
+     width: 200px;   
     text-align: start;
-    padding-right: 100px;
+    padding-left: 80px;
     }
 
     .boton1 {
@@ -363,7 +400,7 @@ footer {
     }
 
     .datos{
-        font-size: 10px;
+        font-size: 15px;
     }
     
 }
@@ -386,7 +423,7 @@ footer {
     }
 
     header nav .registro{
-    width: 400px;
+    width: 380px;
     height: 88px;
     display: flex;
     justify-content: flex-start;
@@ -421,14 +458,16 @@ footer {
 
     }
 
-    .Fondo{
-    background-image: url(./Fondo.jpg);
+     .Fondo{
+    display: grid;
     border-radius: 50px;
     background-size: cover;
     height: 600px;
-    width: 800px;
-  
-    
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
     }
 
     .Titulo{
@@ -476,16 +515,17 @@ footer {
     
     }
 
-    .tabla{
-    width: 700px;
+   .tabla{
+    width: 400px;
+    height: 127px;
     padding-left: 10px;
-    font-size: 15px;
+    padding-right: 0px;
     }
 
     .identificador{
-     width: 100px;   
+     width: 200px;   
     text-align: start;
-    padding-right: 100px;
+    padding-left: 50px;
     }
 
     .boton1 {
@@ -496,7 +536,7 @@ footer {
     }
 
     .datos{
-        font-size: 10px;
+        font-size: 15px;
     }
     
 
@@ -513,27 +553,24 @@ footer {
    
     }
 
-    ul.registro{
-        padding-left: 0px;
-        width: 300px;
-        height: 88px;
-    }
 
     header nav .registro{
-    width: 300px;
+    width: 250px;
     height: 88px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
+    padding-left: 50px;
     }
 
     a.e3{
         font-size: 30px;
-        width: 400px;
+        width: 280px;
         padding-left: 0px;
     }
 
     ul.enlaces{
+        width: 270px;
         padding-left: 25px;
          justify-content:flex-start;
         
@@ -548,21 +585,31 @@ footer {
     .Bienvenida{
     font-size: 50px;
     padding-top: 130px;
-    width: 600px;
-    height: 100px;
+    width: auto;
+    height: auto;
     text-align: center;
     justify-content:center;
 
     }
 
+    .Bienvenida2{
+    font-size: 50px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    justify-content:center
+    }
+
     .Fondo{
-    background-image: url(./Fondo.jpg);
+    display: grid;
     border-radius: 50px;
     background-size: cover;
     height: 600px;
-    width: 600px;
-  
-    
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
     }
 
     .Titulo{
@@ -594,7 +641,7 @@ footer {
 
     input{
     font-size: 17px;
-    width: 530px;
+    width: auto;
     height: 25px;
     margin: 10px 30px;
    
@@ -613,24 +660,29 @@ footer {
     .tabla{
     width: 400px;
     padding-left: 10px;
-    font-size: 10px;
+    font-size: 15px;
     }
 
     .identificador{
-     width: 100px;   
+     width: 200px;   
     text-align: start;
-    padding-right: 70px;
+    padding-right: 20px;
+    padding-left: 15px;
     }
 
     .boton1 {
-    width: 40px;
-    height: 25px;
-    font-size: 7px;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
 
     }
 
+    .td1 {
+        padding-left: 8px;
+    }
+
     .datos{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     footer {
@@ -696,21 +748,33 @@ footer {
     .Bienvenida{
     font-size: 40px;
     padding-top: 130px;
-    width: 500px;
+    width: auto;
     height: 100px;
     text-align: center;
     justify-content:center;
 
     }
 
+    .Bienvenida2{
+    font-size: 45px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    justify-content:center
+    }
+
+   
+
     .Fondo{
-    background-image: url(./Fondo.jpg);
+    display: grid;
     border-radius: 50px;
     background-size: cover;
-    height: 500px;
-    width: 500px;
-  
-    
+    height: 600px;
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
     }
 
     .Titulo{
@@ -742,7 +806,7 @@ footer {
 
     input{
     font-size: 17px;
-    width: 450px;
+    width: auto;
     height: 25px;
     margin: 10px 20px;
    
@@ -758,29 +822,33 @@ footer {
     
     }
 
+   
     .tabla{
-    width: 300px;
+    width: 200px;
     padding-left: 10px;
-    font-size: 10px;
+    font-size: 13px;
     }
 
     .identificador{
-     width: 100px;   
+     width: 180px;   
     text-align: start;
-    padding-right: 30px;
-    padding-left: 10px;   
+    padding-right: 0px;
+    padding-left: 15px;
     }
 
     .boton1 {
-    width: 40px;
+    width: 50px;
     height: 25px;
-    font-size: 7px;
+    font-size: 9px;
 
     }
 
+    .td1 {
+        padding-left: 0px
+    }
+
     .datos{
-        font-size: 10px;
-        padding-left: 10px;
+        font-size: 13px;
     }
     
 
@@ -809,6 +877,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
+    padding-left: 20px;
     }
 
     a.e3{
@@ -832,23 +901,33 @@ footer {
     }
 
     .Bienvenida{
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 130px;
-    width: 400px;
+    width: auto;
     height: 100px;
     text-align: center;
     justify-content:center;
 
     }
 
-    .Fondo{
-    background-image: url(./Fondo.jpg);
+    .Bienvenida2{
+    font-size: 37px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    justify-content:center
+    }
+
+     .Fondo{
+    display: grid;
     border-radius: 50px;
     background-size: cover;
-    height: 500px;
-    width: 400px;
-  
-    
+    height: 600px;
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
     }
 
     .Titulo{
@@ -880,7 +959,7 @@ footer {
 
     input{
     font-size: 17px;
-    width: 350px;
+    width: auto;
     height: 25px;
     margin: 10px 20px;
    
@@ -896,29 +975,33 @@ footer {
     
     }
 
-    .tabla{
-    width: 400px;
+ .tabla{
+    width: 200px;
     padding-left: 10px;
-    font-size: 9px;
+    font-size: 11px;
     }
 
     .identificador{
-    width: 500px;   
+     width: 120px;   
     text-align: start;
-    padding-right: 10px;
-    padding-left: 0px;   
+    padding-right: 0px;
+    padding-left: 15px;
     }
 
     .boton1 {
-    width: 40px;
+    width: 50px;
     height: 25px;
-    font-size: 7px;
+    font-size: 9px;
 
     }
 
-    .datos{
-        font-size: 8px;
+    .td1 {
         padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    .datos{
+        font-size: 11px;
     }
     
 
