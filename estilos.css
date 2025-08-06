@@ -742,13 +742,13 @@ footer {
     .tabla{
     width: 400px;
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 13px;
     }
 
     .identificador{
      width: 200px;   
     text-align: start;
-    padding-right: 20px;
+    padding-right: 0px;
     padding-left: 15px;
     }
 
@@ -764,7 +764,9 @@ footer {
     }
 
     .datos{
-        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 0px;
+        font-size: 13px;
     }
     
     footer {
@@ -772,7 +774,8 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-}
+    }
+
 
     .footer-content {
     font-size: 15px;
@@ -780,6 +783,32 @@ footer {
     margin: 0 auto;
     }
 
+
+
+    .Boton2 {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    
+    }
+    .Boton3 {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-left:10px;
+    margin-top: 10px;
+    
+    
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -908,14 +937,14 @@ footer {
     .tabla{
     width: 200px;
     padding-left: 10px;
-    font-size: 13px;
+    font-size: 10px;
     }
 
     .identificador{
      width: 180px;   
     text-align: start;
     padding-right: 0px;
-    padding-left: 15px;
+    padding-left: 10px;
     }
 
     .boton1 {
@@ -930,8 +959,34 @@ footer {
     }
 
     .datos{
-        font-size: 13px;
+        font-size: 10px;
     }
+
+    
+    .Boton2 {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    
+    }
+    .Boton3 {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-left:10px;
+    margin-top: 10px;
+    
+    
+}
     
 
 }
@@ -1058,7 +1113,7 @@ footer {
     }
 
  .tabla{
-    width: 200px;
+    width: 100px;
     padding-left: 10px;
     font-size: 11px;
     }
@@ -1079,7 +1134,7 @@ footer {
 
     .td1 {
         padding-left: 0px;
-        padding-top: 50px;
+        padding-top: 0px
     }
 
     .datos{
