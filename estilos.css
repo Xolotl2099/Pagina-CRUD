@@ -308,6 +308,153 @@ footer {
     padding-right: 20px;
 }
 
+@media screen and (max-width: 1200px){
+  
+    header nav .registro{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    }
+
+    a.e3{
+        font-size: 30px;
+    }
+
+    ul.enlaces{
+        padding-left: 25px;
+         justify-content:flex-start;
+        
+    }
+
+    .enlaces img{
+        width: 140px;
+        height: 140px;
+        
+    }
+
+   .Bienvenida{
+    font-size: 60px;
+    padding-top: 130px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content:center;
+
+    }
+
+    .Bienvenida2{
+    font-size: 60px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    justify-content:center
+    }
+
+    .Fondo{
+    display: grid;
+    border-radius: 50px;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+
+    }
+
+    .Titulo{
+    font-size: 50px;
+    width: auto;
+    height: 80px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content:center;
+
+    }
+
+    .nombre{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 80px; 
+    
+
+    }
+
+    .nombre1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0px 80px; 
+    margin-top: 50px;
+    
+
+    }
+
+    input{
+    width: auto;
+    height: 25px;
+    margin: 10px 80px;
+   
+
+    }
+
+    .Boton {
+    margin-left: 80px;
+    
+    }
+
+    .tabla{
+    width: 350px;
+    padding-left: 80px;
+    font-size: 15px;
+    padding-right: 80px;
+    }
+
+    .identificador{
+     width: 200px;   
+    text-align: start;
+    padding-left: 0px;
+    padding-right: 15px;
+    }
+
+    .boton1 {
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+
+    }
+
+    .datos{
+        font-size: 15px;
+    }
+
+    .Boton2 {
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+    
+    }
+    .Boton3 {
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left:20px;
+    margin-top: 20px;
+    
+    
+}
+    
+}
+
 
 @media screen and (max-width: 900px){
   
@@ -1128,7 +1275,7 @@ footer {
     }
 
     .boton1 {
-    padding-right: 5px;
+    padding-left: 2px;
     width: 40px;
     height: 25px;
     font-size: 8px;
