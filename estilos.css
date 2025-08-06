@@ -166,7 +166,7 @@ header nav .registro{
 
 .Formulario{
     margin: 0px;
-    padding: 40px 0;
+    padding: 0px 0;
     display: grid;
 
 }
@@ -204,13 +204,39 @@ input{
     height: 50px;
     border-radius: 50px;
     background-color: #4E4E4E;
-     color: #FFFFFF;
+    color: #FFFFFF;
     font-size: 18px;
     margin-left: 300px;
     margin-top: 20px;
     
     
 }
+
+.Boton2 {
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+    
+}
+.Boton3 {
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left:20px;
+    margin-top: 20px;
+    
+    
+}
+
 
 footer {
     background-color: #333;
@@ -245,19 +271,19 @@ footer {
 
 
 .tabla{
-    display:grid;
+
     grid-template-columns: repeat(2, 2fr);
     background-position: center center;
     width: auto;
-    padding-left: 310px;
-    padding-right: 800px;
+    padding-left: 300px;
+    padding-right: 0px;
     padding-top: 0px;
     color:#FFFFFF;
     font-size: 20px;
 }
 
 .identificador{
-    display: flex;
+
     text-align: start;
     padding-right: 30px;
 }
@@ -269,21 +295,19 @@ footer {
     background-color: #4E4E4E;
     color: #FFFFFF;
     font-size: 10px;
-
-    
-
-}
-
-.datos {
-    display: flex;
-
 }
 
 .td1 {
-    padding-top: 90px;
+    padding-top: 0px;
     padding-left: 20px;
 
 }
+
+.datos{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
 
 @media screen and (max-width: 900px){
   
@@ -382,14 +406,15 @@ footer {
 
     .tabla{
     width: 700px;
-    padding-left: 10px;
+    padding-left: 80px;
     font-size: 15px;
+    padding-right: 80px;
     }
 
     .identificador{
      width: 200px;   
     text-align: start;
-    padding-left: 80px;
+    padding-left: 0px;
     }
 
     .boton1 {
@@ -402,6 +427,31 @@ footer {
     .datos{
         font-size: 15px;
     }
+
+    .Boton2 {
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+    
+    }
+    .Boton3 {
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left:20px;
+    margin-top: 20px;
+    
+    
+}
     
 }
 
@@ -517,15 +567,22 @@ footer {
 
    .tabla{
     width: 400px;
-    height: 127px;
-    padding-left: 10px;
+    height: 80px;
+    padding-left: 50px;
     padding-right: 0px;
     }
 
+    .head{
+    width: 50px;
+    height: 36px;
+    }
+
     .identificador{
-     width: 200px;   
+    width: 200px;   
     text-align: start;
-    padding-left: 50px;
+    padding-left: 0px;
+    padding-right: 0PX;
+    font-size: 13px;
     }
 
     .boton1 {
@@ -536,8 +593,33 @@ footer {
     }
 
     .datos{
-        font-size: 15px;
+        font-size: 13px;
     }
+
+    .Boton2 {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+    }
+    .Boton3 {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-left:20px;
+    margin-top: 20px;
+    
+    
+}
     
 
 }

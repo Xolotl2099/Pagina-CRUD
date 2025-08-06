@@ -43,14 +43,18 @@
                 <div class="Titulo">Formulario</div>
                     <p class="nombre1">Nombre</p>
                 <input type="text" name="Nombre" id="nombre" required>
-                    <p class="nombre">Correo</p>
-                <input type="text" name="Correo" id="correo" required>
-                    <p class="nombre">Teléfono</p>
-                <input type="text" name="Telefono" id="telefono" required>          
                     <p class="nombre">Nivel de Experiencia</p>
                 <input type="text" name="Estado" id="estado" required>
-            
-                <button onclick="guardar()" class="Boton">Enviar</button>
+                    <p class="nombre">Teléfono</p>
+                <input type="tel" name="Telefono" id="telefono" required>          
+                    <p class="nombre">Correo</p>
+                <input type="email" name="Correo" id="correo" required>
+                
+                <button id="btn-enviar" onclick="guardar()" class="Boton">Enviar</button>
+             
+                <div class="Botones">
+                <button id="btn-modificar" onclick="modificar()" class="Boton2" style="display:none;">Guardar</button>
+                <button id="btn-salir" onclick="salirEdicion()" class="Boton3" style="display:none;">Salir</button>
 
             </div>
         </div>    
