@@ -415,6 +415,7 @@ footer {
      width: 200px;   
     text-align: start;
     padding-left: 0px;
+    padding-right: 15px;
     }
 
     .boton1 {
@@ -565,24 +566,17 @@ footer {
     
     }
 
-   .tabla{
-    width: 400px;
-    height: 80px;
+    .tabla{
+    width: 700px;
     padding-left: 50px;
+    font-size: 15px;
     padding-right: 0px;
     }
 
-    .head{
-    width: 50px;
-    height: 36px;
-    }
-
     .identificador{
-    width: 200px;   
+     width: 200px;   
     text-align: start;
     padding-left: 0px;
-    padding-right: 0PX;
-    font-size: 13px;
     }
 
     .boton1 {
@@ -592,8 +586,14 @@ footer {
 
     }
 
+    .td1 {
+        padding-left: 0px;
+    }
+
     .datos{
-        font-size: 13px;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 15px;
     }
 
     .Boton2 {
@@ -602,7 +602,7 @@ footer {
     border-radius: 50px;
     background-color: #4E4E4E;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 50px;
     margin-top: 20px;
     
@@ -614,15 +614,13 @@ footer {
     border-radius: 50px;
     background-color: #4E4E4E;
     color: #FFFFFF;
-    font-size: 15px;
-    margin-left:20px;
+    font-size: 14px;
+    margin-left:10px;
     margin-top: 20px;
     
     
-}
-    
-
-}
+    }
+}      
 
 @media screen and (max-width: 700px){
 
@@ -753,14 +751,14 @@ footer {
     }
 
     .boton1 {
-    width: 60px;
+    width: 50px;
     height: 30px;
     font-size: 10px;
 
     }
 
     .td1 {
-        padding-left: 8px;
+        padding-left: 5px;
     }
 
     .datos{
@@ -791,7 +789,7 @@ footer {
     border-radius: 50px;
     background-color: #4E4E4E;
     color: #FFFFFF;
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: 10px;
     
@@ -803,7 +801,7 @@ footer {
     border-radius: 50px;
     background-color: #4E4E4E;
     color: #FFFFFF;
-    font-size: 10px;
+    font-size: 14px;
     margin-left:10px;
     margin-top: 10px;
     
@@ -984,13 +982,17 @@ footer {
     font-size: 10px;
     margin-left:10px;
     margin-top: 10px;
-    
-    
-}
-    
 
+
+    }
 }
 
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 @media screen and (max-width: 500px){
 
      nav{
@@ -1115,7 +1117,7 @@ footer {
  .tabla{
     width: 100px;
     padding-left: 10px;
-    font-size: 11px;
+    font-size: 10px;
     }
 
     .identificador{
@@ -1126,9 +1128,9 @@ footer {
     }
 
     .boton1 {
-    width: 50px;
+    width: 40px;
     height: 25px;
-    font-size: 9px;
+    font-size: 8px;
 
     }
 
@@ -1139,7 +1141,7 @@ footer {
 
     .datos{
         padding-left: 5px;
-        font-size: 11px;
+        font-size: 9px;
     }
     
 
